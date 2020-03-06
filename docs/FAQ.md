@@ -219,7 +219,7 @@ git config --global url."git@github.yourEnterprise.com:".insteadOf "https://gith
 
 The full algorithm is complex, but the most important thing to understand is
 that `dep` tries versions in a [certain
-order](https://godoc.org/github.com/golang/dep/gps#SortForUpgrade),
+order](https://godoc.org/github.com/flowrean/dep/gps#SortForUpgrade),
 checking to see a version is acceptable according to specified constraints.
 
 * All semver versions come first, and sort mostly according to the semver 2.0
@@ -482,7 +482,7 @@ Sample Dockerfile:
 ```Dockerfile
 FROM golang:1.9 AS builder
 
-RUN curl -fsSL -o /usr/local/bin/dep https://github.com/golang/dep/releases/download/vX.X.X/dep-linux-amd64 && chmod +x /usr/local/bin/dep
+RUN curl -fsSL -o /usr/local/bin/dep https://github.com/flowrean/dep/releases/download/vX.X.X/dep-linux-amd64 && chmod +x /usr/local/bin/dep
 
 RUN mkdir -p /go/src/github.com/***
 WORKDIR /go/src/github.com/***
@@ -499,7 +499,7 @@ RUN dep ensure -vendor-only
 ## How do I use `dep` in CI?
 
 Since `dep` is expected to change until `v1.0.0` is released, it is recommended to rely on a released version.
-You can find the latest binary from the [releases](https://github.com/golang/dep/releases) page.
+You can find the latest binary from the [releases](https://github.com/flowrean/dep/releases) page.
 
 Sample configuration for Travis CI:
 
@@ -511,7 +511,7 @@ env:
 
 before_install:
   # Download the binary to bin folder in $GOPATH
-  - curl -L -s https://github.com/golang/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 -o $GOPATH/bin/dep
+  - curl -L -s https://github.com/flowrean/dep/releases/download/v${DEP_VERSION}/dep-linux-amd64 -o $GOPATH/bin/dep
   # Make the binary executable
   - chmod +x $GOPATH/bin/dep
 

@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/golang/dep/gps/pkgtree"
+	"github.com/flowrean/dep/gps/pkgtree"
 	"github.com/pkg/errors"
 )
 

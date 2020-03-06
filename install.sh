@@ -13,11 +13,11 @@
 # - DEP_ARCH (optional): use a specific value for ARCH (mostly for testing)
 #
 # You can install using this script:
-# $ curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+# $ curl https://raw.githubusercontent.com/flowrean/dep/master/install.sh | sh
 
 set -e
 
-RELEASES_URL="https://github.com/golang/dep/releases"
+RELEASES_URL="https://github.com/flowrean/dep/releases"
 
 downloadJSON() {
     url="$2"

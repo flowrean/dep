@@ -7,7 +7,7 @@ package main
 import (
 	"context"
 
-	"github.com/golang/dep/gps"
+	"github.com/flowrean/dep/gps"
 	"github.com/pkg/errors"
 )
 

@@ -7,7 +7,7 @@ package never
 import (
 	"sort"
 
-	"github.com/golang/dep/gps"
+	"github.com/flowrean/dep/gps"
 )
 
 var (

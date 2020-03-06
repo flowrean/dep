@@ -7,11 +7,11 @@ const siteConfig = {
   tagline: 'Dependency management for Go',
   url: 'https://golang.github.io' /* your website url */,
   baseUrl: '/dep/' /* base url for your project */,
-  editUrl: 'https://github.com/golang/dep/edit/master/docs/',
+  editUrl: 'https://github.com/flowrean/dep/edit/master/docs/',
   projectName: 'dep',
   headerLinks: [
-    {doc: 'introduction', label: 'Documentation'},
-    {blog: true, label: 'Blog'},
+    { doc: 'introduction', label: 'Documentation' },
+    { blog: true, label: 'Blog' },
   ],
   users,
   /* path to images for header/footer */
@@ -32,15 +32,15 @@ const siteConfig = {
     'Copyright © ' +
     new Date().getFullYear() +
     ' The Go Authors',
-   organizationName: 'golang', // or set an env variable ORGANIZATION_NAME
-   projectName: 'dep', // or set an env variable PROJECT_NAME
+  organizationName: 'golang', // or set an env variable ORGANIZATION_NAME
+  projectName: 'dep', // or set an env variable PROJECT_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/golang/dep',
+  repoUrl: 'https://github.com/flowrean/dep',
 };
 
 module.exports = siteConfig;

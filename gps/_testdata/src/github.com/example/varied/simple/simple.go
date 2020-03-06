@@ -7,7 +7,7 @@ package simple
 import (
 	"go/parser"
 
-	"github.com/golang/dep/gps"
+	"github.com/flowrean/dep/gps"
 )
 
 var (

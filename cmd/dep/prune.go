@@ -13,10 +13,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/pkgtree"
-	"github.com/golang/dep/internal/fs"
+	"github.com/flowrean/dep"
+	"github.com/flowrean/dep/gps"
+	"github.com/flowrean/dep/gps/pkgtree"
+	"github.com/flowrean/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 

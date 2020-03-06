@@ -19,8 +19,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/golang/dep/gps/pkgtree"
-	"github.com/golang/dep/internal/fs"
+	"github.com/flowrean/dep/gps/pkgtree"
+	"github.com/flowrean/dep/internal/fs"
 	"github.com/nightlyone/lockfile"
 	"github.com/pkg/errors"
 	"github.com/sdboyer/constext"

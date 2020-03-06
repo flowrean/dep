@@ -20,8 +20,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/internal/fs"
+	"github.com/flowrean/dep"
+	"github.com/flowrean/dep/internal/fs"
 )
 
 var (

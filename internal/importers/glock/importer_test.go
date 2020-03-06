@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/internal/importers/importertest"
-	"github.com/golang/dep/internal/test"
+	"github.com/flowrean/dep"
+	"github.com/flowrean/dep/gps"
+	"github.com/flowrean/dep/internal/importers/importertest"
+	"github.com/flowrean/dep/internal/test"
 	"github.com/pkg/errors"
 )
 

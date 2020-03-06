@@ -7,7 +7,7 @@ package two
 import (
 	"cycle"
 
-	"github.com/golang/dep/gps"
+	"github.com/flowrean/dep/gps"
 )
 
 var (

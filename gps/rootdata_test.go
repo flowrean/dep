@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/dep/gps/pkgtree"
+	"github.com/flowrean/dep/gps/pkgtree"
 )
 
 func TestRootdataExternalImports(t *testing.T) {

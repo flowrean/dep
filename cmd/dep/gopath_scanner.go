@@ -11,12 +11,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/golang/dep"
-	"github.com/golang/dep/gps"
-	"github.com/golang/dep/gps/paths"
-	"github.com/golang/dep/gps/pkgtree"
-	fb "github.com/golang/dep/internal/feedback"
-	"github.com/golang/dep/internal/fs"
+	"github.com/flowrean/dep"
+	"github.com/flowrean/dep/gps"
+	"github.com/flowrean/dep/gps/paths"
+	"github.com/flowrean/dep/gps/pkgtree"
+	fb "github.com/flowrean/dep/internal/feedback"
+	"github.com/flowrean/dep/internal/fs"
 	"github.com/pkg/errors"
 )
 

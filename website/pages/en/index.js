@@ -71,7 +71,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={docUrl('introduction.html', language)}>Docs</Button>
             <Button href={siteConfig.baseUrl + 'blog'}>Blog</Button>
-            <Button href='https://github.com/golang/dep'>Code</Button>
+            <Button href='https://github.com/flowrean/dep'>Code</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -84,7 +84,7 @@ class Index extends React.Component {
     let language = this.props.language || '';
 
     return (
-        <HomeSplash language={language} />
+      <HomeSplash language={language} />
     );
   }
 }

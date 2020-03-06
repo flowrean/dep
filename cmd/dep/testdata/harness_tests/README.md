@@ -1,4 +1,4 @@
-# golang/dep Integration Tests
+# flowrean/dep Integration Tests
 
 The `dep` integration tests use a consistent directory structure under `testdata`
 to set up the initial project state, run `dep` commands, then check against an
@@ -29,7 +29,7 @@ desired.  The test name will consist of the directory path from `testdata` to
 the test case directory itself.  In the above example, the test name would be
 `category1/subcategory1/case1`, and could be singled out with the `-run` option
 of `go test` (i.e.
-`go test github.com/golang/dep/cmd/dep -run Integration/category1/subcategory1/case1`).
+`go test github.com/flowrean/dep/cmd/dep -run Integration/category1/subcategory1/case1`).
 New tests can be added simply by adding a new directory with the json file to
 the `testdata` tree.  There is no need for code modification - the new test
 will be included automatically.
